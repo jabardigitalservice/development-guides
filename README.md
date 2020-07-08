@@ -9,6 +9,7 @@ TBD.
 ## Team Development Workflow
 - Project Management
 - [Git Workflow](./git_workflow.md)
+- Clean Code
 
 ## Frontend Development
 - [General](./frontend.md)
@@ -22,3 +23,6 @@ TBD.
 ## Quality Assurance
 - Product Standard
 - Acceptance Criteria Standard
+
+## Operations & Monitoring
+TBD.

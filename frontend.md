@@ -2,10 +2,14 @@
 TBD.
 
 ## Framework, Tools
-TBD.
+* Framework:
+  * [Vuejs](https://vuejs.org/)
+  * [Nuxtjs](https://nuxtjs.org/)
+* Tools:
+  * [Vuex](https://vuex.vuejs.org/)
 
 ## Code Style Guides
-TBD.
+* [Code Style Guides](https://vuejs.org/v2/style-guide/)
 
 ## Best Practices References
-TBD.
+* [Style Guide Reference](https://vuejs.org/v2/style-guide/)

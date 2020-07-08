@@ -6,11 +6,14 @@ TBD. Adapt from [GDS.UK](https://www.gov.uk/government/publications/technology-c
 ## System Architecture
 TBD.
 
+## Source Management Workflow
+- [Git Workflow Standard](./git_workflow.md)
+
 ## Frontend Development
-TBD.
+- [General](./frontend.md)
 
 ## Backend Development
-- [Laravel Code Style & Best Practices](https://github.com/alexeymezenin/laravel-best-practices)
-TBD.
+- [General](./backend.md)
 
 ## Mobile Development
+- [General](./mobile.md)

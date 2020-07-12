@@ -10,20 +10,21 @@ TBD.
 ## Pull/Merge Request
 TBD.
 
-## Code Review and Approval
+## Code Review dan Approval
 ### Intro
-Code review is a process when someone's code is reviewed by the others, usually by their team members and tech leads. The goals of code review are:
-- To improve code quality (e.g. by aligning code style and pointing out possible bugs)
-- To find better solutions for logic implementation inside the codebase
-- To increase sense of code ownership between team members, especially when each member is not working together on the same feature.
+Code review adalah proses di mana kode yang dibuat oleh seorang engineer di-review oleh engineer lainnya. Code review pada umumnya dilakukan sebelum feature branch di-merge ke target branch (`development` atau `master`).
+Tujuan dari code review adalah:
+- Meningkatkan code quality dengan cara memperbaiki code style dan memperbaiki bagian kode yang berpotensi menimbulkan bug
+- Mendapatkan implementasi logic terbaik untuk menyelesaikan suatu masalah
+- Meningkatkan code ownership di antara anggota tim, terutama jika setiap anggota tim mengerjakan fitur yang berbeda dan menggunakan file yang berbeda.
 ### Workflow
-1. When creating a Pull Request (PR), add a description containing at least:
-  - Purpose of PR (e.g. to implement a new feature, to fix a bug). You can also add screenshots or tables to help explain the PR.
-  - Reference to tickets related to PR (Trello card, GitHub Issues etc.).
-2. Mention at least one team member and one other engineer outside the project (usually tech lead).
-3. Resolve comment threads after you push changes to address those comments.
-4. PR can only be merged when it has been approved by at least one team member and one engineer outside the project (usually tech lead).
-5. After PR has been merged to target branch (usually `development`), delete the temporary branch.  This step is unnecessary if you are merging branch `development` to `master`, because branch `development` reperesents software state in staging environment, and will be used for future PRs. There is a setting to protect those two branches from being deleted, even though you can't do it on private GitHub repos using free plan.
+1. Saat membuat Pull Request (PR), buat deskripsi yang setidaknya mengandung hal-hal berikut:
+  - Tujuan PR, misalnya implementasi fitur baru atau bugfix. Jika perlu, tambahkan screenshot atau tabel yang dapat membantu menjelaskan PR tersebut.
+  - Referensi ke ticket yang membahas PR tersebut, misalnya dalam bentuk URL Trello card atau URL GitHub Issue.
+2. Mention setidaknya satu anggota tim dan satu engineer di luar tim (biasanya tech lead).
+3. Jika ada feedback untuk revisi kode, dan jika revisi sudah dilakukan, mention kembali pihak yang terlibat dalam diskusi feedback tersebut.
+4. PR hanya dapat di-merge jika sudah di-approve oleh setidaknya satu anggota tim dan satu engineer di luar tim (biasanya tech lead).
+5. Setelah source branch yang digunakan untuk PR berhasil di-merge ke target branch (misalnya branch `development`), hapus branch tersebut. Langkah ini tidak perlu dilakukan jika source branch yang digunakan adalah `development`, dan target branch adalah `master`. Branch `development`. Ada setting yang dapat digunakan untuk menjadikan branch `development` dan `master` sebagai protected branch, mencegah branch tersebut agar tidak sengaja terhapus.
 
 ## Deployment
 TBD.

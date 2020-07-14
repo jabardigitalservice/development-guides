@@ -8,15 +8,6 @@ TBD.
 TBD.
 
 ## Pull/Merge Request
-TBD.
-
-## Code Review dan Approval
-### Intro
-Code review adalah proses di mana kode yang dibuat oleh seorang engineer di-review oleh engineer lainnya. Code review pada umumnya dilakukan sebelum feature branch di-merge ke target branch (`development` atau `master`).
-Tujuan dari code review adalah:
-- Meningkatkan code quality dengan cara memperbaiki code style dan memperbaiki bagian kode yang berpotensi menimbulkan bug
-- Mendapatkan implementasi logic terbaik untuk menyelesaikan suatu masalah
-- Meningkatkan code ownership di antara anggota tim, terutama jika setiap anggota tim mengerjakan fitur yang berbeda dan menggunakan file yang berbeda.
 ### Workflow
 1. Saat membuat Pull Request (PR), buat deskripsi yang setidaknya mengandung hal-hal berikut:
   - Tujuan PR, misalnya implementasi fitur baru atau bugfix. Jika perlu, tambahkan screenshot atau tabel yang dapat membantu menjelaskan PR tersebut.
@@ -29,6 +20,16 @@ Tujuan dari code review adalah:
 - Ada setting yang dapat digunakan untuk menjadikan branch `development` dan `master` sebagai protected branch, mencegah branch tersebut agar tidak sengaja terhapus.
   - [Protected branch di GitHub](https://docs.github.com/en/github/administering-a-repository/about-protected-branches) (Saat ini tidak tersedia untuk private repo yang menggunakan GitHub Free plan)
   - [Protected branch di GitLab](https://docs.gitlab.com/ee/user/project/protected_branches.html)
+
+## Code Review dan Approval
+### Intro
+Code review adalah proses di mana kode yang dibuat oleh seorang engineer di-review oleh engineer lainnya. Code review pada umumnya dilakukan sebelum feature branch di-merge ke target branch (`development` atau `master`).
+Tujuan dari code review adalah:
+- Meningkatkan code quality dengan cara memperbaiki code style dan memperbaiki bagian kode yang berpotensi menimbulkan bug
+- Mendapatkan implementasi logic terbaik untuk menyelesaikan suatu masalah
+- Meningkatkan code ownership di antara anggota tim, terutama jika setiap anggota tim mengerjakan fitur yang berbeda dan menggunakan file yang berbeda.
+### Guideline untuk Code Author
+### Guideline untuk Reviewer
 
 ## Deployment
 TBD.

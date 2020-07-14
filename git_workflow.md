@@ -29,7 +29,11 @@ Tujuan dari code review adalah:
 - Mendapatkan implementasi logic terbaik untuk menyelesaikan suatu masalah
 - Meningkatkan code ownership di antara anggota tim, terutama jika setiap anggota tim mengerjakan fitur yang berbeda dan menggunakan file yang berbeda.
 ### Guideline untuk Code Author
+TBD.
 ### Guideline untuk Reviewer
+TBD.
+### Referensi
+- [Google Engineering Practices - How to do a code review](https://google.github.io/eng-practices/review/)
 
 ## Deployment
 TBD.

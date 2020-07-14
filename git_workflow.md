@@ -20,11 +20,15 @@ Tujuan dari code review adalah:
 ### Workflow
 1. Saat membuat Pull Request (PR), buat deskripsi yang setidaknya mengandung hal-hal berikut:
   - Tujuan PR, misalnya implementasi fitur baru atau bugfix. Jika perlu, tambahkan screenshot atau tabel yang dapat membantu menjelaskan PR tersebut.
-  - Referensi ke ticket yang membahas PR tersebut, misalnya dalam bentuk URL Trello card atau URL GitHub Issue.
+  - URL ke ticket yang membahas PR tersebut (jika tim menggunakan issue/task management tools).
 2. Mention setidaknya satu anggota tim dan satu engineer di luar tim (biasanya tech lead).
 3. Jika ada feedback untuk revisi kode, dan jika revisi sudah dilakukan, mention kembali pihak yang terlibat dalam diskusi feedback tersebut.
 4. PR hanya dapat di-merge jika sudah di-approve oleh setidaknya satu anggota tim dan satu engineer di luar tim (biasanya tech lead).
-5. Setelah source branch yang digunakan untuk PR berhasil di-merge ke target branch (misalnya branch `development`), hapus branch tersebut. Langkah ini tidak perlu dilakukan jika source branch yang digunakan adalah `development`, dan target branch adalah `master`. Branch `development`. Ada setting yang dapat digunakan untuk menjadikan branch `development` dan `master` sebagai protected branch, mencegah branch tersebut agar tidak sengaja terhapus.
+5. Setelah source branch yang digunakan untuk PR berhasil di-merge ke target branch (misalnya branch `development`), hapus branch tersebut. Langkah ini tidak perlu dilakukan jika source branch yang digunakan adalah `development`, dan target branch adalah `master`.
+### Catatan
+- Ada setting yang dapat digunakan untuk menjadikan branch `development` dan `master` sebagai protected branch, mencegah branch tersebut agar tidak sengaja terhapus.
+  - [Protected branch di GitHub](https://docs.github.com/en/github/administering-a-repository/about-protected-branches) (Saat ini tidak tersedia untuk private repo yang menggunakan GitHub Free plan)
+  - [Protected branch di GitLab](https://docs.gitlab.com/ee/user/project/protected_branches.html)
 
 ## Deployment
 TBD.

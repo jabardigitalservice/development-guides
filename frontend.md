@@ -23,13 +23,13 @@ TBD.
 * [Code Style Guides](https://vuejs.org/v2/style-guide/)
 * Guideline:
   * Use camelCase for variable name
-  * Use PascalCase for class name and file
+  * Use PascalCase for class name
   * Use kebab-case for css style
   * Use PascalCase for file name
   * Use snake_case for file name as variable
   * Use clear, defined name for variables. ie. don't use const a = this.processsData, instead use const processedData = this.processData
   * Function name use Verb
-  * Varible name use Noun
+  * Variable name use Noun
 
 ## Best Practices References
 * [VueJs](https://vuejs.org/v2/style-guide/)

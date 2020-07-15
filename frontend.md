@@ -19,6 +19,7 @@ TBD.
   * [Vue Masked Input](https://www.npmjs.com/package/vue-masked-input)
 * Tools:
   * [Vee-validate](https://logaretm.github.io/vee-validate/)
+  * [Code Linter](https://eslint.vuejs.org/)
 ## Code Style Guides
 * [Code Style Guides](https://vuejs.org/v2/style-guide/)
 * Guideline:

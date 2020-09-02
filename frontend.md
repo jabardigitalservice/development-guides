@@ -7,7 +7,7 @@ TBD.
   * [Nuxtjs](https://nuxtjs.org/)
 * State Management:
   * [Vuex](https://vuex.vuejs.org/)
-* CSS Managenent:
+* CSS Managenent: ([reference](https://drive.google.com/file/d/18tp32RRyzvFOgBJqltHDmpx4BhFZFCAl/view))
   * CSS in CSS files:
     - Global css for global class
     - Scoped css for selected component / file
@@ -27,10 +27,10 @@ TBD.
   * [Vee-validate](https://logaretm.github.io/vee-validate/)
   * [Code Linter](https://eslint.vuejs.org/)
 * Extension (Formatter / Linter):
-  * Eslint
-  * Prettier
-  * Beautify
-  note: use spaces 2 tab
+  * [Eslint](https://eslint.org/)
+  * [Prettier](https://github.com/prettier/eslint-config-prettier)
+  * [Beautify](https://beautifier.io/)
+  note: use spaces 2 by default
 
 ## Code Style Guides
 * [Code Style Guides](https://vuejs.org/v2/style-guide/)

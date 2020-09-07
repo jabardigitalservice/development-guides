@@ -2,7 +2,24 @@
 TBD.
 
 ## Branch Strategy
-TBD.
+### Workflow
+study case: master branch for production, development for staging.
+origin/master -> local/master
+origin/development -> local/development (created from master branch)
+origin/feature or origin/bugfix -> lcoal/feature or local/bugfix (created from development branch)
+* USE development as DEFAULT branch 
+* DO NOT merge request / force push directly from local or origin feature/bugfix to origin master
+* create merge request to master branch ONLY FROM origin development branch
+* creeate merge request task to development branch ONLY
+* in case if hotfix needed, create branch hotfix/TaskName and merge it to master and development
+### Branch Naming
+suggestion:
+1. Create branch depend on task given on trello / another task board, example:
+    in trello   : #176 Migrasi Sesi 2
+    branch name : MigrasiSesi2
+    * use PascalCase for branch name
+2. ...
+3. ...
 
 ## Commit
 * Commit message:

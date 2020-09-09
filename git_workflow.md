@@ -11,7 +11,7 @@ origin/feature or origin/bugfix -> lcoal/feature or local/bugfix (created from d
 * DO NOT merge request / force push directly from local or origin feature/bugfix to origin master
 * create merge request to master branch ONLY FROM origin development branch
 * creeate merge request task to development branch ONLY
-* in case if hotfix needed, create branch hotfix/TaskName and merge it to master and development
+* in case a production hotfix is needed, create branch `hotfix/TaskName` from branch `master`  and merge it to `master` and `development`.
 ### Branch Naming
 suggestion:
 1. Create branch depend on task given on trello / another task board, example:
